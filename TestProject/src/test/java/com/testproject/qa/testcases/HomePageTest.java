@@ -33,7 +33,7 @@ public class HomePageTest extends TestBase{
     	homePage.clickSLBackpackAddToCartTest();
     	testUtil.testWaitFour();
     	homePage.clicksLBikeLightAddToCartTest();
-    	testUtil.testWaitFour();
+    	testUtil.testWaitTwo();
     }
     
     @AfterMethod
