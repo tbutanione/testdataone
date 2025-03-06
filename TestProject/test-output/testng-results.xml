@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T17:08:57 IST" name="Suite" finished-at="2025-02-14T17:09:44 IST" duration-ms="47036">
+  <suite started-at="2025-03-06T14:44:51 IST" name="Default suite" finished-at="2025-03-06T14:45:13 IST" duration-ms="22043">
     <groups>
     </groups>
-    <test started-at="2025-02-14T17:08:57 IST" name="Test" finished-at="2025-02-14T17:09:44 IST" duration-ms="47036">
-      <class name="com.testproject.qa.testcases.CheckOutStepTwoPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.qa.testcases.CheckOutStepTwoPageTest@3c77d488]" started-at="2025-02-14T17:08:57 IST" name="setUp" finished-at="2025-02-14T17:09:27 IST" duration-ms="29656" status="PASS">
+    <test started-at="2025-03-06T14:44:51 IST" name="Default test" finished-at="2025-03-06T14:45:13 IST" duration-ms="22043">
+      <class name="com.testproject.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:44:51 IST" name="setUp" finished-at="2025-03-06T14:45:02 IST" duration-ms="10543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.testproject.qa.testcases.CheckOutStepTwoPageTest@3c77d488]" started-at="2025-02-14T17:09:27 IST" name="test" finished-at="2025-02-14T17:09:44 IST" duration-ms="16906" status="PASS">
+        <test-method signature="verifyTitleTest()[pri:1, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:02 IST" name="verifyTitleTest" finished-at="2025-03-06T14:45:02 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.qa.testcases.CheckOutStepTwoPageTest@3c77d488]" started-at="2025-02-14T17:09:44 IST" name="tearDown" finished-at="2025-02-14T17:09:44 IST" duration-ms="403" status="PASS">
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:02 IST" name="tearDown" finished-at="2025-03-06T14:45:02 IST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.testproject.qa.testcases.CheckOutStepTwoPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:02 IST" name="setUp" finished-at="2025-03-06T14:45:06 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoImageTest()[pri:2, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:06 IST" name="verifyLogoImageTest" finished-at="2025-03-06T14:45:06 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:06 IST" name="tearDown" finished-at="2025-03-06T14:45:06 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:06 IST" name="setUp" finished-at="2025-03-06T14:45:10 IST" duration-ms="3504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:10 IST" name="loginTest" finished-at="2025-03-06T14:45:13 IST" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testproject.qa.testcases.LoginPageTest@4145bad8]" started-at="2025-03-06T14:45:13 IST" name="tearDown" finished-at="2025-03-06T14:45:13 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testproject.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
