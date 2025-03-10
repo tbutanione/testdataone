@@ -31,7 +31,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void verifyTitleTest() {
 		String title=loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Swag Labs");
+		Assert.assertEquals(title, "Swag Labs");;
 	}
 	
 	@Test(priority=2)
