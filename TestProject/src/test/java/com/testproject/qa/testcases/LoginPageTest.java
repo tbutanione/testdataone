@@ -37,7 +37,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=2)
 	public void verifyLogoImageTest() {
 		boolean flag=loginPage.validateLogo();
-		Assert.assertTrue(flag);
+		Assert.assertTrue(flag);;
 	}
 	
 	@Test(priority=3)
